@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cuadrado{
+    width: 600%;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+}
+
+
+
+.item{
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.895);
+    transition: all 300ms;
+    position: relative;
+}
+
+
+.item::after {
+    content: "";
+    background-color: aquamarine;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    transform: scale(0);
+    transition: all 300ms;
+    opacity: 0;
+}
+
+
+.item:hover:after{
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+.item:hover {
+    transform: scale(1.05);
+}
+
+
+.item-text{
+    padding: 1em;
+}
+
+
+.item-img{
+    max-width: 100%;
+    display: block;
+
+}
+
+@media screen and (min-width: 590px) {
+    .cuadrado{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+
+@media screen and (min-width: 960px) {
+    .cuadrado{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
