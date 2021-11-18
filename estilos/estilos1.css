@@ -6,7 +6,7 @@
 		font-family: 'Montserrat Alternates', sans-serif;
 	}
 	body{
-		background: url("https://images2.alphacoders.com/492/thumb-1920-49262.jpg");
+		background: url("fondo.jpg");
 		background-size: 100vw 100vh;
 		background-repeat: no-repeat;
 	}
@@ -29,6 +29,7 @@
 		width: 90%;
 		max-width: 1200px;
 		margin: auto;
+		z-index: 1000px;
 	}
 	.container .btn-menu, .logo{
 		float: left;
