@@ -123,28 +123,18 @@
 	}
 	/*Fin de Menù lateral*/
 	
-	/*Secciones*/
-	#seccion{
-		width: 70%;
-		margin: 0 auto;
+	/*Margenes*/
+
+    .margenes{
+		width: 75%;
+		margin-left: auto;
+        margin-right: auto;
 		color: rgb(255, 255, 255);
-		
+		margin-top: 10em;
 	}
-	#seccion2{
-		width: 74%;
-		margin: 0 auto;
-		color: white;
-	}
-	#seccion3{
-		width: 74%;
-		margin: 0 auto;
-		color: white;
-	}
-	#seccion4{
-		width: 74%;
-		margin: 0 auto;
-		color: white;
-	}
+
+
+/*Titulo de redes sociales en el menu desplegable*/
 	#titulo{
 		text-align: center;
 		display: block;
