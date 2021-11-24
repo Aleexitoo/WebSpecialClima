@@ -3,3 +3,10 @@
 		padding: 0;
 		box-sizing: border-box;
 }
+
+.politica{
+    margin-top: 5px;
+    padding: 80px;
+    width: 1500px;
+    color: white;
+}
