@@ -147,20 +147,14 @@
 	}
 
 
-
-
-
-	@media screen and (max-width:800px) {
-		header nav {
-			width: 80%;
-			height: 100%;
-			margin: 0;
-			position: fixed;
+	@media only screen and (max-device-width:800px){
+		.container .menu{
+			display: none;
 		}
 
-		header nav ul li {
-			display: block;
-			float: none;
+	}
+	@media only screen and (min-device-width:800px) {
+		.btn-menu{
+			display: none;
 		}
-
 	}
