@@ -145,3 +145,22 @@
 		border-left: 5px solid transparent;
 		transition: all 400ms ease;
 	}
+
+
+
+
+
+	@media screen and (max-width:800px) {
+		header nav {
+			width: 80%;
+			height: 100%;
+			margin: 0;
+			position: fixed;
+		}
+
+		header nav ul li {
+			display: block;
+			float: none;
+		}
+
+	}
