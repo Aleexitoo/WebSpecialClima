@@ -147,6 +147,25 @@
 	}
 
 
+	.parrafo{
+		z-index: 1;
+
+	}
+	.parrafo img{
+		border-radius: 5px;
+		float: none;
+	}
+
+
+
+
+
+
+
+
+
+
+
 	@media only screen and (max-device-width:800px){
 		.container .menu{
 			display: none;
