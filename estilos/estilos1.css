@@ -158,18 +158,25 @@
 
 
 
-
-
-
-
-
-
-
-
 	@media only screen and (max-device-width:800px){
 		.container .menu{
 			display: none;
 		}
+
+		body{
+			background: url("fonfo\ mobile.png");
+			background-repeat: repeat;
+
+		}
+		.logo h1 {
+			font-size: 60px;
+		}
+		
+		.container .btn-menu label {
+			font-size: 60px;
+		}
+			
+
 
 	}
 	@media only screen and (min-device-width:800px) {
