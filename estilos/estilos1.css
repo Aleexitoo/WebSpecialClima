@@ -164,8 +164,11 @@
 		}
 
 		body{
-			background: url("fonfo\ mobile.png");
-			background-repeat: repeat;
+			background: url("fondo_mobile.png") no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
 
 		}
 		.logo h1 {
